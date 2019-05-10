@@ -20,7 +20,6 @@ function carregar(_pagina) {
             //status == 200 - resposta está pronta.
 
             //responseText - resposta do servidor
-            console.log(xmlHttp.responseText);
             document.getElementById("troca").innerHTML = xmlHttp.responseText;
         }
     }
